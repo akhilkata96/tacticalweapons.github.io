@@ -22,7 +22,7 @@ const firebaseConfig = {
         var user = userCredential.user;
         sessionStorage.setItem('status','loggedIn');
         console.log('Status:',sessionStorage.getItem('status'));
-        window.location.href ="home.html";
+        window.location.href ="index.html";
         // ...
       })
       .catch((error) => {
